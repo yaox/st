@@ -1,0 +1,31 @@
+.my-foot{
+	height:2px;
+	border-top:1px solid #f8a212;
+} 
+.box{
+	border-right:1px #f8a212 solid;
+	overflow:hidden;
+}
+.logo{
+	height:78px;
+	background-image:url(../../images/orange/index-logo-bg.jpg);
+	background-repeat:no-repeat;
+}
+.logo-warp{
+	height:78px;
+	background-image:url(../../images/orange/index-logo-bg-repeat.jpg);
+	background-repeat:repeat-x;
+}
+.nav{
+	height:36px;
+	background-image:url(../../images/orange/index-nav-bg.gif);
+	background-repeat:repeat-x;
+	overflow:hidden;
+	padding-left:100px;
+	float:left;
+	width:100%;
+}
+ul.nav-list li:hover{
+	color: #000;
+	background-image:url(../../images/orange/index-nav-bg-hover.jpg);
+}
